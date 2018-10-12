@@ -78,30 +78,7 @@ AXE Google Chrome Extension: Test any site for accessibility violations using th
 Contrast: A macOS app for quick access to WCAG color contrast ratios.
 
 
-https://uxdesign.cc/designing-for-accessibility-is-not-that-hard-c04cc4779d94
-
-
-
 
 
 Aligned to WCAG
-
-
-
-When I teach accessibility classes internally, I have a top 10 list of WCAG requirements and they align nicely with your list of 7, but yours are in English and mine are in W3-speak. To match up my list with yours (using your numbers):
-
-1.4.3 Minimum Contrast (AA)
-(didn’t have on my list, although it was sort of grouped into #6)
-2.4.7 Focus Visible (AA)
-4.1.2 Name, Role, Value (A)
-1.1.1 Non-text Content (A)
-1.3.1 Info and Relationships (A)
-2.1.1 Keyboard (A)
-I also had:
-
-2.4.4 Link Purpose (In Context) (A) (make your link text understandable on its own)
-3.2.2 On Input (A) (don’t do weird things when an object’s value changes)
-3.3.1 Error Identification (A) (make sure all errors are conveyed to screen readers)
-1.4.4 Resize Text (Zooming) (AA) (make sure the page reflows nicely if the font size is bumped up)
-
 
