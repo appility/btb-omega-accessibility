@@ -5,59 +5,56 @@ Digital accessibility refers to the practice of building digital content and app
 
 There is also a strong business case for accessibility: studies show that accessible websites have better search results, they reach a bigger audience, they’re SEO friendly, have faster download times, they encourage good coding practices, and they always have better usability.
 
+https://btplc.com/Inclusion/
+
 > Designing a product from scratch
 > that meets the requirements for accessibility
 > shouldn’t add additional cost and effort.
 > but fixing a site that is already inaccessible may require considerable effort.
 
+### Key points for UX
 
-Content/IA
+ - Structure information so users are able to find what they want easily
 
-Structured information
+ - Use labels or instructions with form fields and inputs
 
-Use labels or instructions with form fields and inputs
+ - Write useful alternative text for your images and other non-text content
+   ( See WCAG 1.1.1 Non-text Content (A) )
 
-Write useful alternative text for your images and other non-text content
+### Key points for Visual Design
 
+ - Add enough color contrast
+   ( See WCAG 1.4.3 Minimum Contrast (AA) )
 
-Visual Designer
+ - Don’t use color alone to make critical information understandable
 
-Add enough color contrast
-See WCAG 1.4.3 Minimum Contrast (AA)
+ - Design usable focus states
+   ( See WCAG 2.4.7 Focus Visible (AA) )
 
-Don’t use color alone to make critical information understandable
-
-
-Design usable focus states
-See WCAG 2.4.7 Focus Visible (AA)
-
-Use labels or instructions with form fields and inputs
-See WCAG 4.1.2 Name, Role, Value (A)
-
-Write useful alternative text for your images and other non-text content
-See WCAG 1.1.1 Non-text Content (A)
+ - Use labels or instructions with form fields and inputs, don't rely on input placeholders
+   ( See WCAG 4.1.2 Name, Role, Value (A) )
 
 
-Developers
+### Key points for developers
 
-Use correct markup on your content 
+ - Use correct markup on your content 
 
-Support keyboard navigation
-
-
-Business Analysts
+ - Support keyboard navigation
 
 
-Get an Accessibility Audit. Use an audit service to find out if your product works with assistive technologies and meets WCAG 2.0 level AA.
+### Key points for product owners
+
+Get an Accessibility Audit. Use an audit service to find out if your product works with assistive technologies and meets WCAG 2.0 level AA. 
 Use the audit results to fix problems and do another test.
 
+Currently BT use https://www.abilitynet.org.uk/accessibility-services/accreditation-and-iComply
+to achieve "AbilityNet Accredited Plus" site status
 
 
-# Useful tools
+## Useful tools
 
   - WebAIM Color Contrast Checker: 
 https://webaim.org/resources/contrastchecker/
-
 Great contrast color checker that gives you results in real time for regular and large text.
 
   - Inclusive Components: 
@@ -76,9 +73,4 @@ Vox Product Accessibility Guidelines: A comprehensive checklist for designers, e
 AXE Google Chrome Extension: Test any site for accessibility violations using the Chrome inspector.
 
 Contrast: A macOS app for quick access to WCAG color contrast ratios.
-
-
-
-
-Aligned to WCAG
 
