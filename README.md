@@ -5,18 +5,31 @@ Digital accessibility refers to the practice of building digital content and app
 
 There is also a strong business case for accessibility: studies show that accessible websites have better search results, they reach a bigger audience, they’re SEO friendly, have faster download times, they encourage good coding practices, and they always have better usability.
 
-https://btplc.com/Inclusion/
+For more information on how Digital accessibility fits into BT wider Inclusion Policy 
+BT Including You https://btplc.com/Inclusion/
 
-> Designing a product from scratch
+> Designing a digital product from scratch
 > that meets the requirements for accessibility
 > shouldn’t add additional cost and effort.
-> but fixing a site that is already inaccessible may require considerable effort.
+> but fixing a site that is already inaccessible 
+> may require considerable effort.
+
+Different members of the team will have specific areas 
+these are outlined below with links to the relevant WCAG guidelines
+
 
 ### Key points for UX
 
  - Structure information so users are able to find what they want easily
 
  - Use labels or instructions with form fields and inputs
+	( See WCAG 4.1.2 Name, Role, Value (A) )
+
+ - Use error messages that are clear and advise how the user can go about fixing them
+	( 3.3.1 Error Identification (A) )
+
+ - Use link text which in meaningful on its own
+   2.4.4 Link Purpose (In Context) (A)
 
  - Write useful alternative text for your images and other non-text content
    ( See WCAG 1.1.1 Non-text Content (A) )
@@ -39,7 +52,13 @@ https://btplc.com/Inclusion/
 
  - Use correct markup on your content 
 
+ - Make sure the page reflows nicely if the font size is bumped up
+	( 1.4.4 Resize Text (Zooming) (AA) )
+
  - Support keyboard navigation
+
+ - If using make sure all errors are conveyed to screen readers ( aria roles )
+
 
 
 ### Key points for product owners
